@@ -55,6 +55,18 @@ bot.on('message', message => {
             case 'restuganteng':
                 message.channel.send('Trimakasih pujiannya kamu adalah orang ke 1000 yang berbicara seperti itu!');
                 break;
+
+            case 'cmd':
+                message.channel.send('?halo,?bantuan,?web?indoku?donkey,?Restu,?restuganteng,?p,?mulai,?donasi');
+                break;   
+            
+            case 'mulai':
+                message.channel.send('Mulai apa ngab? mulai mencintaimu?');
+                break;
+                 
+            case 'donasi':
+                message.channel.send('Silahkan cek informasi donasi di: https://www.indokurp.com/info-donasi');
+                break;
                 
 
 
