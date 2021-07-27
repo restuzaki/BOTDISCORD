@@ -31,6 +31,9 @@ bot.on('message', message => {
                     return message.channel.send("Ada sebuah kesalahan disaat melaksanakan command.")
                             }
             break;
+            case 'halo':
+                message.channel.send('hallo');
+                break;
     }
 })
 
