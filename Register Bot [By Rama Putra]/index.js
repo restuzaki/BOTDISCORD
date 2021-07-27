@@ -26,7 +26,7 @@ bot.on('message', message => {
             try {
                     message.member.roles.add("781827708781854783") //Role Yang Mau DiSet
                     message.member.setNickname(nick)
-                    return message.reply("Accept selamat bermain bersama kami di **INDOKU RP**");
+                    return message.reply("diterima dan selamat bermain bersama kami di **INDOKU RP**");
                 } catch(e) {
                     return message.channel.send("Ada sebuah kesalahan disaat melaksanakan command.")
                             }
