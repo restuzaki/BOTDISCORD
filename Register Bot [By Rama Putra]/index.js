@@ -52,6 +52,9 @@ bot.on('message', message => {
             case 'bantuan':
                 message.channel.send('https://www.indokurp.com/bantuan');
                 break;
+            case 'restuganteng':
+                message.channel.send('Trimakasih pujiannya kamu adalah orang ke 1000 yang berbicara seperti itu!');
+                break;
                 
 
 
