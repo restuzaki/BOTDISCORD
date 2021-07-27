@@ -38,7 +38,7 @@ bot.on('message', message => {
                 message.channel.send('#roleplaybukanchattingan');
                 break;
             case 'restu':
-                message.channel.send('kenapa? orangnya lagi tidur noh');
+                message.channel.send('kenapa? orangnya lagi tidur noh!');
                 break;
             case 'p':
                 message.channel.send('heh yang bener atu salamnya!');
